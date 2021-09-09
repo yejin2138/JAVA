@@ -1,5 +1,4 @@
 # JAVA
-
 #### 프로그래밍 언어의 종류
 
 + 기계어 - 0,1로 구성된 언어 / 컴퓨터의 CPU는 기계어만 이해, 처리
@@ -10,5 +9,19 @@
 * * *
 
 #### 프로그래밍과 컴파일
-__.C -> .obj -> .exe__
+컴파일 - 소스 프로그램을 기계어로 변환하는 것
+컴파일러 - 이런 소프트웨어를 말함
 
+    .C -> .obj -> .exe
+
+      컴파일   링크
+<br>
+```
+public class MyInFoApp {
+	public static void main(String[] args) {
+		System.out.println("Lee Yejin\n"
+				+ "20 years old\n"
+				+ "Computer Engineering");
+	}
+}
+```
